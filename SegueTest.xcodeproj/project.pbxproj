@@ -18,6 +18,7 @@
 		61A2A8121535C79200EF2F68 /* SegueTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61A2A8101535C79200EF2F68 /* SegueTest.xcdatamodeld */; };
 		61A2A8151535C79200EF2F68 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A2A8141535C79200EF2F68 /* MasterViewController.m */; };
 		61A2A8181535C79200EF2F68 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A2A8171535C79200EF2F68 /* DetailViewController.m */; };
+		61A2A8201535C7A000EF2F68 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A2A81F1535C7A000EF2F68 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,18 +27,20 @@
 		61A2A7FB1535C79200EF2F68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		61A2A7FD1535C79200EF2F68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		61A2A7FF1535C79200EF2F68 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		61A2A8031535C79200EF2F68 /* SegueTest-Info.plist */ = {isa = PBXFileReference; path = "SegueTest-Info.plist"; sourceTree = "<group>"; };
+		61A2A8031535C79200EF2F68 /* SegueTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SegueTest-Info.plist"; sourceTree = "<group>"; };
 		61A2A8051535C79200EF2F68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61A2A8071535C79200EF2F68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		61A2A8091535C79200EF2F68 /* SegueTest-Prefix.pch */ = {isa = PBXFileReference; path = "SegueTest-Prefix.pch"; sourceTree = "<group>"; };
-		61A2A80A1535C79200EF2F68 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		61A2A8091535C79200EF2F68 /* SegueTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SegueTest-Prefix.pch"; sourceTree = "<group>"; };
+		61A2A80A1535C79200EF2F68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		61A2A80B1535C79200EF2F68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		61A2A80E1535C79200EF2F68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		61A2A8111535C79200EF2F68 /* SegueTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SegueTest.xcdatamodel; sourceTree = "<group>"; };
-		61A2A8131535C79200EF2F68 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		61A2A8131535C79200EF2F68 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		61A2A8141535C79200EF2F68 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		61A2A8161535C79200EF2F68 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		61A2A8161535C79200EF2F68 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		61A2A8171535C79200EF2F68 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		61A2A81E1535C7A000EF2F68 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		61A2A81F1535C7A000EF2F68 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				61A2A80A1535C79200EF2F68 /* AppDelegate.h */,
 				61A2A80B1535C79200EF2F68 /* AppDelegate.m */,
 				61A2A80D1535C79200EF2F68 /* MainStoryboard.storyboard */,
+				61A2A81E1535C7A000EF2F68 /* SecondViewController.h */,
+				61A2A81F1535C7A000EF2F68 /* SecondViewController.m */,
 				61A2A8131535C79200EF2F68 /* MasterViewController.h */,
 				61A2A8141535C79200EF2F68 /* MasterViewController.m */,
 				61A2A8161535C79200EF2F68 /* DetailViewController.h */,
@@ -177,6 +182,7 @@
 				61A2A8121535C79200EF2F68 /* SegueTest.xcdatamodeld in Sources */,
 				61A2A8151535C79200EF2F68 /* MasterViewController.m in Sources */,
 				61A2A8181535C79200EF2F68 /* DetailViewController.m in Sources */,
+				61A2A8201535C7A000EF2F68 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

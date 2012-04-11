@@ -7,10 +7,10 @@
 //
 
 #import "MasterViewController.h"
-
 #import "DetailViewController.h"
+#import "SecondViewController.h"
 
-@interface MasterViewController ()
+@interface MasterViewController () <SecondViewControllerDelegate>
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
 @end
 
@@ -18,6 +18,10 @@
 
 @synthesize fetchedResultsController = __fetchedResultsController;
 @synthesize managedObjectContext = __managedObjectContext;
+
+- (void)buttonPressed {
+    NSLog(@"BUTTON PRESSED!!!");
+}
 
 - (void)awakeFromNib
 {
@@ -28,10 +32,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    /*
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+     */
 }
 
 - (void)viewDidUnload
@@ -119,6 +125,8 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
         [[segue destinationViewController] setDetailItem:object];
+    } else if([[segue identifier] isEqualToString:@"toSecondView"]) {
+        [[segue destinationViewController] setDelegate:self];
     }
 }
 
